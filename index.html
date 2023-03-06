@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <title>Biglietteria-Online</title>
+</head>
+<body>
+      <div class="containerPage">
+            <header>
+                   <h1>BIGLIETTERIA ONLINE</h1>
+                   <h5>Viaggia ! non solo con la fantasia</h5>
+            </header>
+            <main>
+                <div class="box biglietteria">
+                     <input type="text" name="" placeholder="Inserire Nome" id="nome">
+                     <input type="text" name="" placeholder="Inserire Cognome" id="cognome">
+                     <input type="number" name="" placeholder="inserire km da percorrere" id="km">
+                     <select name=""  id="eta">
+                        <option value="nulla">seleziona una fascia d'Eta'</option>''
+                        <option value="young">da 0 a 17 anni</option>
+                        <option value="adult"> da 18 a 64 anni</option>
+                        <option value="senior">da 65 a 99anni</option>
+                     </select>
+
+                </div>
+                <div class="bottoni">
+                      <button id="genera">genera Biglietto</button>
+                      <button id="annulla">Annulla Biglietto</button>
+                </div>
+                <div id="Biglietto" class="box biglietto">
+                      <div class="cella">
+                          <div class="nome">
+                               <label for=""><h3>Nome</h3></label>
+                               <span id="Nome"><b>--</b></span>
+                               <label for=""><h3>Cognome</h3></label>
+                               <span id="Cognome"><b>--</b></span>
+                          </div>
+                          <div class="posto">
+                            <label for=""><h3>Posto</h3></label>
+                               <span id="Posto"><b>--</b></span>
+                               <label for=""><h3>Carrozza</h3></label>
+                               <span id="Carrozza"><b>--</b></span>
+                          </div>
+                          <div class="posto">
+                            <label for=""><h3>Tratta</h3></label>
+                            <span id="Tratta"><b>--</b></span>
+                            <label for=""><h3>Binario</h3></label>
+                            <span id="Binario"><b>--</b></span>
+                             
+                          </div>
+                      </div>
+                      <div class="cella">
+                          <div class="costo">
+                            <label for=""><h3>Totale Biglietto</h3></label>
+                             <span id="Totale"><b>--</b></span>
+                             <label for=""><h3>Sconto</h3></label>
+                             <span id="Sconto"><b>--</b></span>
+                             <label for=""><h3>Totale Scontato</h3></label>
+                             <span id="Scontato"><b>--</b></span>
+
+                          </div>
+
+                      </div>
+                </div>
+            </main>
+      </div>
+      <script src="main.js"></script>
+
+</body>
+</html>
